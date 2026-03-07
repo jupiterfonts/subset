@@ -5,4 +5,12 @@ A set of Python script templates for generating subset font files (variable and 
  - A Google Fonts-like set of ranges (not the full list of ranges available from Google Fonts; we will add more as we find the need to)
  - The Adeotype Subset Standard (outputs typically fewer, larger files but is more complete for any character set)
 
-All scripts are &copy; Jupiter Fonts.
+All scripts contain fallback code that places any extra non-included glyphs into an orphaned `others` font. If you do not wish to use this font, simply delete the `FONTFAMILY_others.woff2` font file and any calls to it in the generated `font.css` file.
+
+## Copyright
+The Python code used in these script templates are Copyright &copy; 2025-onwards the Jupiter Group.
+
+The **Adeotype Subset Standard** is Copyright &copy; 2025-onwards Adeotype (https://adeotype.pages.dev/). All Rights Reserved.
+
+## Licensing
+These scripts and pre-defined libraries are currently free for public use and modification, but are not redistributable. They are **not** open-source, rather *source available*.
